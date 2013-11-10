@@ -26,21 +26,7 @@
           body { height: 100%; margin: 0; padding: 0 }
           #map-canvas { height: 100%; width: 75%;}
           #sidebar { width: 25%; float: right; overflow: scroll; height: 622px; font-family: Arial; font-size: 13px; color: #7f8c8d;}
-          #search-basic  {   
-			border: 1px 1px 1px 0px solid #7f8c8d;
-			font: bold 12px Arial,Helvetica,Sans-serif;
-			color: #7f8c8d;
-			width: 80%;
-			height: 30px;
-			padding: 6px 15px 6px 35px;
-			-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-			-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-			-webkit-transition: all 0.7s ease 0s;
-			-moz-transition: all 0.7s ease 0s;
-			-o-transition: all 0.7s ease 0s;
-			transition: all 0.7s ease 0s;
-			}
+
 
 		  select {
 			-webkit-appearance: button;
@@ -86,7 +72,7 @@
 				border-bottom: 1px solid #7f8c8d;
 			}
 			ul {
-				margin-left: -10px;
+				padding-left: 2px;
 				list-style: none;
 			}
 </style>
@@ -102,8 +88,6 @@ $(document).ready(function(){
     <body>
   		<div id="sidebar">
   		<center>
-        	<label for="search-basic"></label>
-			<input type="search" name="search" id="search-basic" placeholder="SEARCH" />
 			<select id="select1" onchange="placeMarkers();">
 				<option value="" selected="selected"> Please Select Value </option>
 				<option value="5">5 NEAREST</option>
