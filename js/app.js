@@ -1,4 +1,4 @@
-$.get("https://data.sfgov.org/resource/rqzj-sfat.json?$select=applicant,address,fooditems,latitude,longitude,schedule&Status=approved&FacilityType=truck", function(data){
+$.get("foodtrucks.json", function(data){
   callback(data);
 });
 var data;
