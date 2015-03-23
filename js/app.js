@@ -14,7 +14,17 @@ function callback(inp){
   console.log(data);
 }
 
-
+function updateLocation(name, lat, lon){
+  fs = require("fs");
+  var m = JSON.parse(fs.readFileSync("foodtrucks.json").toString());
+  m.for(int i = 0; i < m.length(); i++){
+    if(m[i].name == this.name){
+      m[i].latitude = lat;
+      m[i].longitude = lon;
+    }
+  }
+  fs.writeFile("foodtrucks.json", JSON.stringify(m));
+};
 
 
 function distance(a1, b1, a2, b2){
