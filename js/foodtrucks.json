@@ -1,0 +1,7 @@
+var foodTrucks = [
+	{"name": "Example One", "food": "chicken, drinks", "lat":"", "long": ""},
+	{"name": "Example Two", "food": "chicken, drinks", "lat":"", "long": ""},
+	{"name": "Example Three", "food": "chicken, drinks", "lat":"", "long": ""},
+	{"name": "Example Four", "food": "chicken, drinks", "lat":"", "long": ""},
+	{"name": "Example Five", "food": "chicken, drinks", "lat":"", "long": ""}
+]
