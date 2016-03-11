@@ -1,8 +1,5 @@
 =======
-connect
+Food Truck Finder
 =======
 
-Get your front end up and running with HTML5 Boilerplate.
-
-Cheackout ./js/main.js
-Here there is a super simple JQuery AJAX request to an open data API. This should get you all started with getting the much needed data into your app.
+Find food trucks that are nearby in SF. Built using the Google Maps API and SF Open Data sets.
